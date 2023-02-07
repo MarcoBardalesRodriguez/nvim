@@ -18,6 +18,7 @@ return require('packer').startup(function(use)
 	--[[ On new systems install COC packages via
 		CocInstall 	coc-explorer 
 				coc-tsserver
+				coc-html
 				coc-emmet
 				coc-css
 	--]]
