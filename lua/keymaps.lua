@@ -26,8 +26,8 @@ map('v', '<', '<gv', default_opts)
 map('v', '>', '>gv', default_opts)
 
 
---Temporal exlplorer --
-map('n', '<leader>e', ':Explore<CR>', default_opts)
+--Temporal explorer --
+--map('n', '<leader>e', ':40Lexplore<CR>', default_opts)
 
 
 

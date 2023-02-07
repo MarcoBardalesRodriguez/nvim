@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\marco\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neovim-ayu",
     url = "https://github.com/Shatur/neovim-ayu"
   },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "C:\\Users\\marco\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\marco\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",

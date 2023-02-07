@@ -11,11 +11,15 @@ return require('packer').startup(function(use)
 
 	use 'vim-airline/vim-airline'			--Airline and Tabline
 
+	use 'nvim-tree/nvim-web-devicons'		--Icons 
+
 	use {'neoclide/coc.nvim', branch = 'release'}	--Autocompletion and more
 
 	--[[ On new systems install COC packages via
-		CocInstall 	coc-vimtex 
-				coc-texlab
+		CocInstall 	coc-explorer 
+				coc-tsserver
+				coc-emmet
+				coc-css
 	--]]
 
 	use 'mhinz/vim-signify'				--Git integration

@@ -7,8 +7,7 @@ local cmd = vim.cmd
 map('i', '<TAB>', 'pumvisible() ? "<C-N>" : "<TAB>"', { expr = true })
 map('i', '<S-TAB>', 'pumvisible() ? "<C-P>" : "<TAB>"', { expr = true } )
 
-map('i', '<CR>', 'pumvisible() ? "<CR>" : coc#pum#confirm()', { expr = true, silent = true } )
-map('i', '<CR><CR>', '<CR>', { silent = true } )
+map('i', '<CR>', 'pumvisible() ? coc#pum#confirm() : "<CR>"', { expr = true, silent = true } )
 
 
 map('n', '[g', '<Plug>(coc-diagnostic-prev)', { noremap = false })
