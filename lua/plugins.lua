@@ -1,5 +1,12 @@
 local fn = vim.fn
-local install_path = fn.stdpath('data')..'\\site\\pack\\packer\\start\\packer.nvim'
+local install_path
+
+if fn.has("win32") == 1 then 
+  install_path = fn.stdpath('data')..'\\site\\pack\\packer\\start\\packer.nvim'
+end
+if fn.has("linux") == 1 then 
+  install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
+end
 
 if fn.empty(fn.glob(install_path)) > 0 then
 	packer_bootstrap = fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
