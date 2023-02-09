@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\marco\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "C:\\Users\\marco\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
+  },
   ["vim-signify"] = {
     loaded = true,
     path = "C:\\Users\\marco\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-signify",

@@ -19,6 +19,8 @@ return require('packer').startup(function(use)
 	use 'vim-airline/vim-airline'			--Airline and Tabline
 
 	use 'nvim-tree/nvim-web-devicons'		--Icons 
+	use 'ryanoasis/vim-devicons'			--Icons 
+	
 
 	use {'neoclide/coc.nvim', branch = 'release'}	--Autocompletion and more
 
